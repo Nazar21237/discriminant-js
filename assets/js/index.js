@@ -20,3 +20,17 @@ const minValue = function (val1, val2){
   return val1;
 }
 console.log(minValue(firstNum, secondNum)) ;
+
+// 3) function check Even Numbers
+
+const checkEvenNumbers = function (number){
+  return number % 2 === 0;
+}
+
+function checkEven(){
+  console.log("Max value is:", maxValue(firstNum, secondNum));
+  console.log("Min value is:", minValue(firstNum, secondNum));
+  if(checkEvenNumbers(num)) console.log(`${num} is even`)
+  else console.log(`${num} is odd`);
+}
+
