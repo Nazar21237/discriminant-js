@@ -11,3 +11,12 @@ const maxValue = function (val1, val2) {
   return val2;
 }
 console.log(maxValue(firstNum, secondNum));
+
+// 2) function min
+
+const minValue = function (val1, val2){
+  if (isNaN(val1 - val2)) return null;
+  if(val1 > val2) return val2;
+  return val1;
+}
+console.log(minValue(firstNum, secondNum)) ;
